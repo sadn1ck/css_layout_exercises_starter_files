@@ -1,12 +1,25 @@
 body {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 main {
-  padding-left: 90px;
-  padding-right: 90px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 {
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+
+.img2 {
+    width: 300px;
+    /* saw solution for this because i saw images were quite small in assignment page*/
+    float: right;
+    margin-left: 10px;
 }
